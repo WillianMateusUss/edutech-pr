@@ -1,0 +1,150 @@
+<canvas width = "1000" height = "500"></canvas>
+<body bgcolor = "grey"></body>
+
+<script type="text/javascript">
+	
+	var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    
+    //fundo
+    pincel.fillStyle = "green";
+    pincel.fillRect(0, 0, 1000, 500);
+    
+    //asfalto
+    pincel.fillStyle = "grey";
+    pincel.fillRect(0, 480, 1000, 200);
+    
+    //cabine
+    pincel.fillStyle = "red";
+    pincel.fillRect(10, 350, 90, 120);
+    
+    //parabrisa
+    pincel.fillStyle = "#008b8b";
+    pincel.fillRect(10, 380, 20, 40);
+    
+    //roda
+    pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.arc(50, 465, 20, 0, 2*3.14);
+    pincel.fill();
+    
+    //chassis
+    pincel.fillStyle = "grey";
+	pincel.fillRect(100, 450, 140, 20)
+	
+	//quinta roda
+	pincel.fillStyle = "grey";
+    pincel.fillRect(195, 438, 10, 10);
+
+    //roda
+	pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.arc(200, 465, 20, 0, 2*3.14);
+    pincel.fill();
+
+    //chasis da carreta
+    pincel.fillStyle = "#666666";
+    pincel.fillRect(160, 430, 500, 10);
+
+    //carga
+    pincel.fillStyle = "#503614";
+    pincel.fillRect(160, 310, 500, 90);
+
+    //tampas da carreta
+    pincel.fillStyle = "red";
+    pincel.fillRect(160, 400, 500, 30);
+
+    //barra
+    pincel.fillStyle = "black";
+    pincel.fillRect(170, 415, 480, 5);
+
+    //corda1
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(175, 310, 10, 110);
+
+    //corda2
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(205, 310, 10, 110);
+
+    //corda3
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(235, 310, 10, 110);
+
+    //corda4
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(265, 310, 10, 110);
+
+    //corda5
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(295, 310, 10, 110);
+
+    //corda6
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(325, 310, 10, 110);
+
+    //corda7
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(355, 310, 10, 110);
+
+    //corda8
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(385, 310, 10, 110);
+
+    //corda9
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(415, 310, 10, 110);
+
+    //corda10
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(445, 310, 10, 110);
+
+    //corda11
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(475, 310, 10, 110);
+
+    //corda12
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(505, 310, 10, 110);
+
+    //corda13
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(535, 310, 10, 110);
+
+    //corda14
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(565, 310, 10, 110);
+
+    //corda15
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(595, 310, 10, 110);
+
+    //corda16
+    pincel.fillStyle = "#ae6b14";
+    pincel.fillRect(625, 310, 10, 110);
+
+    //molejos
+    pincel.fillStyle = "grey";
+    pincel.fillRect(490, 440, 120, 30);
+
+    //roda
+	pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.arc(600, 465, 20, 0, 2*3.14);
+    pincel.fill();
+
+     //roda
+	pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.arc(550, 465, 20, 0, 2*3.14);
+    pincel.fill();
+
+     //roda
+	pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.arc(500, 465, 20, 0, 2*3.14);
+    pincel.fill();
+
+    document.write("<br><br>");
+    document.write("Para voltar, click " + "<a href= comeco.html>aqui</a>");
+
+</script>
