@@ -10,11 +10,17 @@
 
 <p align="center"> Repositório de projeto da trilha de Front-End do Edutech.</p>
 
+<p align="center"> Neste Repositório irei postar alguns dos meus projetos desenvolvidos durante o curso do Edutech Paraná!</p>
+
 <p align="center"> Edutech Front-End Track Project Repository.</p>
+
+<p align="center"> In this Repository I will post some of my projects developed during the Edutech Paraná course!</p>
+
+<p align="center"> My teacher is <a href="https://github.com/profJoice">@JoiceSiqueiraLima</a></p>
 
 ------
 <div align="center">
-  <h1>🎓 so far I'm graduated in:</h1>
+  <h1>🎓 Completed Courses:</h1>
   <br>
   🖥️ Programming logic
   <br>
@@ -37,9 +43,21 @@
 ------
 
 <details>
-<summary> Simple Projects</summary>
-<section class="repositorio">
-<a href="https://github.com/WillianMateusUss/edutech-pr/tree/main/Dark%20Mode">
-  <img height="120em" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=WillianMateusUss&repo=edutech-pr&tree&main*Dark%20Mode&theme=dark"/>
-</a>
+<summary> ☑️ Simple Projects</summary>
+  <article>
+    <a href="https://github.com/WillianMateusUss/edutech-pr/tree/main/Dark%20Mode">
+      <img height="80em" align="center" src="https://user-images.githubusercontent.com/87039489/135179654-5dcc3473-16f2-4f8d-9a15-d4167bf92cd0.png"/>
+    </a>
+      Simple Dark Mode
+  </article>
+</details>
+
+<details>
+<summary> 📦 Projects</summary>
+  <article>
+    <a href="https://github.com/WillianMateusUss/edutech-pr/tree/main/Mega%20Funk%20News">
+      <img height="100em" align="center" src="https://github.com/WillianMateusUss/edutech-pr/blob/main/Mega%20Funk%20News/logo.png"/>
+    </a>
+      First Version
+  </article>
 </details>
