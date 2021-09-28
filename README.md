@@ -40,6 +40,6 @@
 <summary> Simple Projects</summary>
 <section class="repositorio">
 <a href="https://github.com/WillianMateusUss/edutech-pr/tree/main/Dark%20Mode">
-  <img height="120em" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=WillianMateusUss&repo=edutech-pr&theme=dark"/>
+  <img height="120em" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=WillianMateusUss&repo=edutech-pr&tree&main*Dark%20Mode&theme=dark"/>
 </a>
 </details>
