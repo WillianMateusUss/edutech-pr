@@ -1,0 +1,54 @@
+/* Variveis*/
+:root {
+    --branco: #f1f1f1;
+    --preto: #000;
+    --cinza-claro: rgb(153, 153, 153);
+    --cinza-escuro: rgb(87, 87, 87);
+}
+
+/*Oculta a CheckBox*/
+#darkmode {
+    display: none;
+
+    text-align: center;
+}
+
+/*Troca as Cores Quando o Botão Estiver Ativo*/
+#darkmode:checked + .site{
+    --branco: #010101;
+    --preto: #f1f1f1;
+    --cinza-claro: rgb(233, 233, 233);
+    --cinza-escuro: rgb(141, 141, 141);
+}
+
+/*Troca o On pelo Off quando o botão estiver ativo*/
+#darkmode:checked + .site .darkmodebotao:after{
+    content: ' off';
+}
+
+/*Estilização do botão(muda de acordo com o estilo seguido em cada site)*/
+.darkmodebotao {
+    font-weight: bold;
+    font-size: 38px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    margin-left: 44%;
+
+    cursor: pointer;
+
+    transition: 800ms;
+    
+    color: var(--preto); 
+}
+
+/*Como o site começa no dark mode, indica que ele esta ativo*/
+.darkmodebotao::after {
+    content: ' on';
+}
+
+/*Ao passar o mouse por cima o texto do botao fica branco*/
+.darkmodebotao:hover {
+    color: var(--branco);
+}

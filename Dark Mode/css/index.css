@@ -1,0 +1,32 @@
+.site {
+    font-family: 'Roboto Mono', monospace;
+    background-image: linear-gradient(var(--cinza-escuro), var(--cinza-claro));
+
+    min-height: 100vh;
+    min-width: 100vh;
+
+    margin: 0 0; 
+}
+
+.titulo {
+    text-align: center;
+
+    color: var(--branco);
+
+    font-size: 36px;
+    font-weight: 700;
+
+    padding-top: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.paragrafo {
+    text-align: center;
+
+    color: var(--branco);
+
+    font-size: 24px;
+    font-weight: 300;
+
+    margin-bottom: 2.5rem;
+}
