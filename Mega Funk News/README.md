@@ -13,7 +13,7 @@
   
 </p>
 
-<p>O que é Mega Funk:<br>
+<p>O que é Mega Funk:<br><br>
   O mega funk é bem parecido com o eletro funk, porém existe uma pequena diferença entre os dois: o mega funk é normalmente mixado somente a partir do refrão com vários estilos de bases house, eletrônica.
   <br>
   No Paraná e Santa Catarina é comum encontrar carros de som reproduzindo essas músicas.
