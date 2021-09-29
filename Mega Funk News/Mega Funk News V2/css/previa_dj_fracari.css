@@ -1,0 +1,195 @@
+:root {
+    --color-text: #000;
+    --background-color: #666;
+    --background-colorh: #717171;
+    --background-colornav: #505050;
+    --colornavhover: #777;
+    --filter: invert(0%);
+    transition: .5s ease-in-out background-colorh, .5s ease-in-out background-color, .5s ease-in-out background-colornav;
+}
+
+#darkmode {
+    display: none;
+}
+
+#darkmode:checked + .site{
+    --color-text: #000;
+    --background-color: rgb(180, 180, 180);
+    --background-colorh: #ccc;
+    --background-colornav: #aaa;
+    --colornavhover: #777;
+    --filter: invert(100%);
+    transition: .5s ease-in-out background-colorh, .5s ease-in-out background-color, .5s ease-in-out background-colornav;
+}
+
+#darkmode:checked + .site .darkmodebotao:after{
+    content: ' off';
+}
+
+.darkmodebotao {
+    cursor: pointer;
+    transition: 800ms;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.darkmodebotao::after {
+    content: ' on';
+}
+
+.darkmodebotao:hover {
+    color: #fff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: var(--background-colorh);
+    padding: 20px 0;
+}
+
+.centro {
+    position: relative;
+    margin: 0 auto;
+}
+
+.centro h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    transition: 400ms;
+    max-width: 200px;
+    max-height: 200px;
+    filter: var(--filter)
+}
+
+#logo:hover {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--background-colornav);
+    box-shadow: 2px 5px 10px ;
+}
+
+
+.nav li {
+    display: inline;
+    margin: 0 0 0 15; 
+    margin-left: 10px;
+}
+
+.nav a {
+    transition: 800ms;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.site {
+    background-color: var(--background-color);
+}
+
+.main, .pt1, .pt2 {
+    background-color: var(--background-color);
+}
+
+.pt1 h2 {
+	text-align: center;
+	color: #000;
+	font-size: 2em;
+}
+
+.pt1 p {
+	color: #000;
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+.video embed {
+	display: block;
+	margin: 0 auto;
+	padding: 0px 0;
+	box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    float: left;
+    margin: 20px 20px 20px 30px;
+}
+
+.pt2 p {
+	color: #000;
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+.pt2 a {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.pt2 a:hover {
+	color: #FF0000;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background: url(../imgs/bg.jpg);
+    padding: 40px 0;
+    clear: left;
+}
+
+#logorodape {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .cabeca, .centro, .pt1, .pt2, .copyright {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .video {
+        margin: 0 50px;
+    }
+}

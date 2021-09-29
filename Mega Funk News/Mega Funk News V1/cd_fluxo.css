@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(71, 71, 71);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(80, 80, 80);
+    padding: 20px 0;
+}
+
+.centro {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo {
+    max-width: 200px;
+    max-height: 200px;
+}
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15; 
+    margin-left: 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+.titulo {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 2em;
+}
+
+.paragrafos {
+	margin-left: 30px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.lista {
+	margin-left: 30px;
+	padding: 20px 0;
+	color: #FFFFFF;
+	font-size: 24px;
+    line-height: 1.5;
+}
+
+.lista li:before {
+    content: "♫ ";
+}
+
+#yt {
+	max-height: 100px;
+	max-width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 0;
+}
+
+
+footer {
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+@media screen and (max-width:480px) {
+
+    .cabeca, .centro, .titulo, .paragrafos, .lista, .copyright {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav  {
+        position: static;
+        text-align: center;
+    }
+
+    .lista li {
+        margin: 10px 0;
+        width: auto;
+    }
+
+
+}

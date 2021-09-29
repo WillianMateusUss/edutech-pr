@@ -1,0 +1,147 @@
+:root {
+    --color-text: #000;
+    --background-color: #666;
+    --background-colorh: #717171;
+    --background-colornav: #505050;
+    --colornavhover: #777;
+    --filter: invert(0%);
+    transition: .5s ease-in-out background-colorh, .5s ease-in-out background-color, .5s ease-in-out background-colornav;
+}
+
+#darkmode {
+    display: none;
+}
+
+#darkmode:checked + .site{
+    --color-text: #000;
+    --background-color: rgb(180, 180, 180);
+    --background-colorh: #ccc;
+    --background-colornav: #aaa;
+    --colornavhover: #777;
+    --filter: invert(100%);
+    transition: .5s ease-in-out background-colorh, .5s ease-in-out background-color, .5s ease-in-out background-colornav;
+}
+
+#darkmode:checked + .site .darkmodebotao:after{
+    content: ' off';
+}
+
+.darkmodebotao {
+    cursor: pointer;
+    transition: 800ms;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.darkmodebotao::after {
+    content: ' on';
+}
+
+.darkmodebotao:hover {
+    color: #fff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: var(--background-colorh);
+    padding: 20px 0;
+}
+
+.centro {
+    position: relative;
+    margin: 0 auto;
+}
+
+.centro h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    filter: var(--filter);
+    transition: 400ms;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#logo:hover {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--background-colornav);
+    box-shadow: 2px 5px 10px ;
+}
+
+
+.nav li {
+    display: inline;
+    margin: 0 0 0 15; 
+    margin-left: 10px;
+}
+
+.nav a {
+    transition: 800ms;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.principal {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.principal h1 {
+    text-align: center;
+    font-size: 48px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.principal p {
+    margin-left: 60px;
+    font-size: 24px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+    background: url(../imgs/bg.jpg);
+    padding: 40px 0;
+}
+
+#logorodape {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}

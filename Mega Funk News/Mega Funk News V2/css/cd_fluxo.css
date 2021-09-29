@@ -1,0 +1,212 @@
+:root {
+    --color-text: #000;
+    --background-color: #666;
+    --background-colorh: #717171;
+    --background-colornav: #505050;
+    --colornavhover: #777;
+    --filter: invert(0%);
+    transition: .5s ease-in-out background-colorh, .5s ease-in-out background-color, .5s ease-in-out background-colornav;
+}
+
+#darkmode {
+    display: none;
+}
+
+#darkmode:checked + .site{
+    --color-text: #000;
+    --background-color: rgb(180, 180, 180);
+    --background-colorh: #ccc;
+    --background-colornav: #aaa;
+    --colornavhover: #777;
+    --filter: invert(100%);
+    transition: .5s ease-in-out background-colorh, .5s ease-in-out background-color, .5s ease-in-out background-colornav;
+}
+
+#darkmode:checked + .site .darkmodebotao:after{
+    content: ' off';
+}
+
+.darkmodebotao {
+    cursor: pointer;
+    transition: 800ms;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.darkmodebotao::after {
+    content: ' on';
+}
+
+.darkmodebotao:hover {
+    color: #fff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: var(--background-colorh);
+    padding: 20px 0;
+}
+
+.site {
+    background-color: var(--background-color);
+}
+
+.centro {
+    position: relative;
+    margin: 0 auto;
+}
+
+.centro h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    transition: 400ms;
+    max-width: 200px;
+    max-height: 200px;
+    filter: var(--filter);
+}
+
+#logo:hover {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--background-colornav);
+    box-shadow: 2px 5px 10px ;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15; 
+    margin-left: 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+.titulo {
+	text-align: center;
+	color: #000;
+	font-size: 2em;
+}
+
+.logoFluxo {
+    display: flex;
+    justify-content: center;
+}
+
+.logoFluxo img{
+    transition: 600ms;
+    max-height: 200px;
+    margin-bottom: 40px;
+}
+
+.logoFluxo img:hover {
+    transition: 600ms;
+    filter: invert(100%);
+}
+
+.paragrafos {
+	margin-left: 30px;
+	color: #000;
+	font-size: 20px;
+}
+
+.lista {
+    transition: 400ms;
+	margin-left: 30px;
+	padding: 20px 0;
+	color: #000;
+	font-size: 24px;
+    line-height: 1.5;
+}
+
+.lista li {
+    transition: 400ms;
+}
+
+.lista li:before {
+    content: "♫ ";
+}
+
+.lista li:hover {
+    transition: 400ms;
+    color: #f00;
+}
+
+#yt {
+    transition: 400ms;
+	max-height: 100px;
+	max-width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 0;
+}
+
+#yt:hover {
+    transition: 400ms;
+    filter: invert(100%);
+}
+
+
+footer {
+    text-align: center;
+    background: url(../imgs/bg.jpg);
+    padding: 40px 0;
+}
+
+#logoRodape {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+@media screen and (max-width:480px) {
+
+    .cabeca, .centro, .titulo, .paragrafos, .lista, .copyright {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav  {
+        position: static;
+        text-align: center;
+    }
+
+    .lista li {
+        margin: 10px 0;
+        width: auto;
+    }
+
+
+}
