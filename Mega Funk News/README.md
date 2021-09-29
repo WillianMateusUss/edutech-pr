@@ -8,7 +8,7 @@
   <img align="center" alt="HTML" height="10" width="10" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   e Css 
   <img align="center" alt="CSS" height="10" width="10" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
-  na <a href="alura.com.br">Alura</a>, conforme o professor ia desenvolvendo o site no curso eu ia refazendo porém com minha ideia.
+  na <a href="https://alura.com.br">Alura</a>, conforme o professor ia desenvolvendo o site no curso eu ia refazendo porém com minha ideia.
   <br>
   
 </p>
