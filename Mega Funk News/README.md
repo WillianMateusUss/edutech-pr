@@ -27,15 +27,15 @@
 
 <h4> Mega Funk News V1 </h4>
 
--Criado e Estilizado todo o corpo do site.
--Separados fatos que poderiam vir virar uma "mini notícia".
--Criadas as páginas das notícias.
+- Criado e Estilizado todo o corpo do site.
+- Separados fatos que poderiam vir virar uma "mini notícia".
+- Criadas as páginas das notícias.
 
 <h4> Mega Funk News V1 </h4>
 
--Reformulação no design de cabeçalho.
--Adicionado Dark Mode Simples.
--Adicionado mais uma nova notícia.
--Reformulação na organização das notícias.
+- Reformulação no design de cabeçalho.
+- Adicionado Dark Mode Simples.
+- Adicionado mais uma nova notícia.
+- Reformulação na organização das notícias.
 
 ------
