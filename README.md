@@ -58,6 +58,5 @@
     <a href="https://github.com/WillianMateusUss/edutech-pr/tree/main/Mega%20Funk%20News">
       <img height="100em" align="center" src="https://github.com/WillianMateusUss/edutech-pr/blob/main/Mega%20Funk%20News/Mega%20Funk%20News%20V1/logo.png"/>
     </a>
-      First Version
   </article>
 </details>
