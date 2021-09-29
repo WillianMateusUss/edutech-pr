@@ -31,7 +31,7 @@
 - Separados fatos que poderiam vir virar uma "mini notícia".
 - Criadas as páginas das notícias.
 
-<h4> Mega Funk News V1 </h4>
+<h4> Mega Funk News V2 </h4>
 
 - Reformulação no design de cabeçalho.
 - Adicionado Dark Mode Simples.
