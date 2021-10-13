@@ -1,0 +1,60 @@
+body {
+    background-color: #333;
+
+    color: #eee;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center, space-between;
+    align-items: center;
+}
+
+.menu-open {
+    height: 5rem;
+    width: 5rem;
+
+    border-style: none;
+
+    background-color: transparent;
+    background-image: url(icons/menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-close {
+    height: 5rem;
+    width: 5rem;
+
+    border-style: none;
+
+    background-color: transparent;
+    background-image: url(icons/menu_open.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lista {
+    list-style: none;
+
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.lista__elemento {
+    margin: .25rem .25rem;
+}
