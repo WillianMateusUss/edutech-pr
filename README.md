@@ -61,7 +61,7 @@
     <a href="https://github.com/WillianMateusUss/edutech-pr/tree/main/Dark%20Mode">
       <img height="80em" align="center" src="https://github.com/WillianMateusUss/edutech-pr/blob/main/menu-hamburger/icons/menu.svg"/>
     </a>
-      Simple Dark Mode
+      Simple Hamburger Menu
   </article>
 </details>
 
