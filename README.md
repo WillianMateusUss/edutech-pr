@@ -58,7 +58,7 @@
  <br>
   
   <article>
-    <a href="https://github.com/WillianMateusUss/edutech-pr/tree/main/Dark%20Mode">
+    <a href="https://github.com/WillianMateusUss/edutech-pr/tree/main/menu-hamburger">
       <img height="80em" align="center" src="https://github.com/WillianMateusUss/edutech-pr/blob/main/menu-hamburger/icons/menu.svg"/>
     </a>
       Simple Hamburger Menu
